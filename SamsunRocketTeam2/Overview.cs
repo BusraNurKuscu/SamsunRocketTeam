@@ -21,5 +21,11 @@ namespace SamsunRocketTeam2
         {
 
         }
+
+        private void Overview_Load(object sender, EventArgs e)
+        {
+
+             
+        }
     }
 }

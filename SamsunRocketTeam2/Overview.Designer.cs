@@ -107,7 +107,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(636, 96);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(455, 399);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -118,7 +118,7 @@
             // 
             this.pcbVideo.Image = ((System.Drawing.Image)(resources.GetObject("pcbVideo.Image")));
             this.pcbVideo.Location = new System.Drawing.Point(71, 96);
-            this.pcbVideo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pcbVideo.Margin = new System.Windows.Forms.Padding(4);
             this.pcbVideo.Name = "pcbVideo";
             this.pcbVideo.Size = new System.Drawing.Size(455, 399);
             this.pcbVideo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -135,7 +135,7 @@
             legend1.Name = "Legend1";
             this.chart2.Legends.Add(legend1);
             this.chart2.Location = new System.Drawing.Point(1140, 76);
-            this.chart2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chart2.Margin = new System.Windows.Forms.Padding(4);
             this.chart2.Name = "chart2";
             this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
             series1.ChartArea = "ChartArea1";
@@ -157,7 +157,7 @@
             legend2.Name = "Legend1";
             this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(1140, 300);
-            this.chart1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chart1.Margin = new System.Windows.Forms.Padding(4);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
             series2.ChartArea = "ChartArea1";
@@ -556,9 +556,10 @@
             this.Controls.Add(this.lblBsn);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pcbVideo);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Overview";
             this.Size = new System.Drawing.Size(1616, 1009);
+            this.Load += new System.EventHandler(this.Overview_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbVideo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
