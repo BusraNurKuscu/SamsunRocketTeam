@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Overview));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label1 = new System.Windows.Forms.Label();
             this.lblBsn = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -130,20 +130,20 @@
             // 
             this.chart2.BackColor = System.Drawing.Color.Transparent;
             this.chart2.BorderlineColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            chartArea1.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart2.Legends.Add(legend1);
+            chartArea3.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chart2.Legends.Add(legend3);
             this.chart2.Location = new System.Drawing.Point(1140, 76);
             this.chart2.Margin = new System.Windows.Forms.Padding(4);
             this.chart2.Name = "chart2";
             this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
-            series1.LabelForeColor = System.Drawing.Color.White;
-            series1.Legend = "Legend1";
-            series1.Name = "-";
-            this.chart2.Series.Add(series1);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
+            series3.LabelForeColor = System.Drawing.Color.White;
+            series3.Legend = "Legend1";
+            series3.Name = "-";
+            this.chart2.Series.Add(series3);
             this.chart2.Size = new System.Drawing.Size(392, 218);
             this.chart2.TabIndex = 50;
             this.chart2.Text = "chart2";
@@ -152,19 +152,19 @@
             // 
             this.chart1.BackColor = System.Drawing.Color.Transparent;
             this.chart1.BorderlineColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            chartArea4.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea4);
+            legend4.Name = "Legend1";
+            this.chart1.Legends.Add(legend4);
             this.chart1.Location = new System.Drawing.Point(1140, 300);
             this.chart1.Margin = new System.Windows.Forms.Padding(4);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
-            series2.Legend = "Legend1";
-            series2.Name = "-";
-            this.chart1.Series.Add(series2);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
+            series4.Legend = "Legend1";
+            series4.Name = "-";
+            this.chart1.Series.Add(series4);
             this.chart1.Size = new System.Drawing.Size(392, 208);
             this.chart1.TabIndex = 51;
             this.chart1.Text = "chart1";
@@ -238,12 +238,12 @@
             this.lblSck.BackColor = System.Drawing.Color.Transparent;
             this.lblSck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblSck.ForeColor = System.Drawing.Color.Gold;
-            this.lblSck.Location = new System.Drawing.Point(1189, 874);
+            this.lblSck.Location = new System.Drawing.Point(1159, 874);
             this.lblSck.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSck.Name = "lblSck";
-            this.lblSck.Size = new System.Drawing.Size(90, 25);
+            this.lblSck.Size = new System.Drawing.Size(118, 25);
             this.lblSck.TabIndex = 91;
-            this.lblSck.Text = "Sıcaklık :";
+            this.lblSck.Text = "Tempature :";
             // 
             // lblGPSlt
             // 
@@ -251,7 +251,7 @@
             this.lblGPSlt.BackColor = System.Drawing.Color.Transparent;
             this.lblGPSlt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblGPSlt.ForeColor = System.Drawing.Color.Gold;
-            this.lblGPSlt.Location = new System.Drawing.Point(1179, 732);
+            this.lblGPSlt.Location = new System.Drawing.Point(1180, 732);
             this.lblGPSlt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGPSlt.Name = "lblGPSlt";
             this.lblGPSlt.Size = new System.Drawing.Size(97, 25);
@@ -264,7 +264,7 @@
             this.lblGPSlg.BackColor = System.Drawing.Color.Transparent;
             this.lblGPSlg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblGPSlg.ForeColor = System.Drawing.Color.Gold;
-            this.lblGPSlg.Location = new System.Drawing.Point(1161, 660);
+            this.lblGPSlg.Location = new System.Drawing.Point(1163, 660);
             this.lblGPSlg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGPSlg.Name = "lblGPSlg";
             this.lblGPSlg.Size = new System.Drawing.Size(114, 25);
@@ -277,12 +277,12 @@
             this.lblDns.BackColor = System.Drawing.Color.Transparent;
             this.lblDns.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblDns.ForeColor = System.Drawing.Color.Gold;
-            this.lblDns.Location = new System.Drawing.Point(1137, 585);
+            this.lblDns.Location = new System.Drawing.Point(1216, 585);
             this.lblDns.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDns.Name = "lblDns";
-            this.lblDns.Size = new System.Drawing.Size(138, 25);
+            this.lblDns.Size = new System.Drawing.Size(61, 25);
             this.lblDns.TabIndex = 88;
-            this.lblDns.Text = "Dönüş Sayısı :";
+            this.lblDns.Text = "Yaw :";
             // 
             // txtRoll
             // 
@@ -366,12 +366,12 @@
             this.lblRPM.BackColor = System.Drawing.Color.Transparent;
             this.lblRPM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblRPM.ForeColor = System.Drawing.Color.Gold;
-            this.lblRPM.Location = new System.Drawing.Point(637, 731);
+            this.lblRPM.Location = new System.Drawing.Point(639, 731);
             this.lblRPM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRPM.Name = "lblRPM";
-            this.lblRPM.Size = new System.Drawing.Size(152, 25);
+            this.lblRPM.Size = new System.Drawing.Size(155, 25);
             this.lblRPM.TabIndex = 80;
-            this.lblRPM.Text = "Manyetik Alan : ";
+            this.lblRPM.Text = "Magnetic Field : ";
             // 
             // lblHiz
             // 
@@ -379,12 +379,12 @@
             this.lblHiz.BackColor = System.Drawing.Color.Transparent;
             this.lblHiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblHiz.ForeColor = System.Drawing.Color.Gold;
-            this.lblHiz.Location = new System.Drawing.Point(701, 655);
+            this.lblHiz.Location = new System.Drawing.Point(713, 655);
             this.lblHiz.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHiz.Name = "lblHiz";
-            this.lblHiz.Size = new System.Drawing.Size(90, 25);
+            this.lblHiz.Size = new System.Drawing.Size(81, 25);
             this.lblHiz.TabIndex = 79;
-            this.lblHiz.Text = "İniş Hızı :";
+            this.lblHiz.Text = "Speed :";
             // 
             // lblYks
             // 
@@ -392,18 +392,18 @@
             this.lblYks.BackColor = System.Drawing.Color.Transparent;
             this.lblYks.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblYks.ForeColor = System.Drawing.Color.Gold;
-            this.lblYks.Location = new System.Drawing.Point(685, 580);
+            this.lblYks.Location = new System.Drawing.Point(715, 580);
             this.lblYks.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblYks.Name = "lblYks";
-            this.lblYks.Size = new System.Drawing.Size(106, 25);
+            this.lblYks.Size = new System.Drawing.Size(79, 25);
             this.lblYks.TabIndex = 78;
-            this.lblYks.Text = "Yükseklik :";
+            this.lblYks.Text = "Height :";
             // 
             // txtBsn
             // 
             this.txtBsn.BackColor = System.Drawing.Color.LemonChiffon;
             this.txtBsn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtBsn.Location = new System.Drawing.Point(320, 864);
+            this.txtBsn.Location = new System.Drawing.Point(332, 864);
             this.txtBsn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtBsn.Name = "txtBsn";
             this.txtBsn.Size = new System.Drawing.Size(192, 30);
@@ -413,7 +413,7 @@
             // 
             this.txtPil.BackColor = System.Drawing.Color.LemonChiffon;
             this.txtPil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtPil.Location = new System.Drawing.Point(320, 793);
+            this.txtPil.Location = new System.Drawing.Point(332, 793);
             this.txtPil.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtPil.Name = "txtPil";
             this.txtPil.Size = new System.Drawing.Size(192, 30);
@@ -428,9 +428,9 @@
             this.label3.Location = new System.Drawing.Point(200, 870);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 25);
+            this.label3.Size = new System.Drawing.Size(101, 25);
             this.label3.TabIndex = 75;
-            this.label3.Text = "Basınç :";
+            this.label3.Text = "Pressure :";
             // 
             // lblPil
             // 
@@ -438,18 +438,18 @@
             this.lblPil.BackColor = System.Drawing.Color.Transparent;
             this.lblPil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblPil.ForeColor = System.Drawing.Color.Gold;
-            this.lblPil.Location = new System.Drawing.Point(168, 799);
+            this.lblPil.Location = new System.Drawing.Point(211, 799);
             this.lblPil.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPil.Name = "lblPil";
-            this.lblPil.Size = new System.Drawing.Size(113, 25);
+            this.lblPil.Size = new System.Drawing.Size(90, 25);
             this.lblPil.TabIndex = 74;
-            this.lblPil.Text = "Pil Gerilimi :";
+            this.lblPil.Text = "Voltage :";
             // 
             // txtTkm
             // 
             this.txtTkm.BackColor = System.Drawing.Color.LemonChiffon;
             this.txtTkm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtTkm.Location = new System.Drawing.Point(320, 724);
+            this.txtTkm.Location = new System.Drawing.Point(332, 724);
             this.txtTkm.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtTkm.Name = "txtTkm";
             this.txtTkm.Size = new System.Drawing.Size(192, 30);
@@ -461,18 +461,18 @@
             this.c.BackColor = System.Drawing.Color.Transparent;
             this.c.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.c.ForeColor = System.Drawing.Color.Gold;
-            this.c.Location = new System.Drawing.Point(176, 726);
+            this.c.Location = new System.Drawing.Point(197, 726);
             this.c.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.c.Name = "c";
-            this.c.Size = new System.Drawing.Size(107, 25);
+            this.c.Size = new System.Drawing.Size(104, 25);
             this.c.TabIndex = 72;
-            this.c.Text = "Takım No :";
+            this.c.Text = "Team No :";
             // 
             // txtGnd
             // 
             this.txtGnd.BackColor = System.Drawing.Color.LemonChiffon;
             this.txtGnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtGnd.Location = new System.Drawing.Point(320, 650);
+            this.txtGnd.Location = new System.Drawing.Point(332, 650);
             this.txtGnd.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtGnd.Name = "txtGnd";
             this.txtGnd.Size = new System.Drawing.Size(192, 30);
@@ -484,18 +484,18 @@
             this.lblGnd.BackColor = System.Drawing.Color.Transparent;
             this.lblGnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblGnd.ForeColor = System.Drawing.Color.Gold;
-            this.lblGnd.Location = new System.Drawing.Point(87, 650);
+            this.lblGnd.Location = new System.Drawing.Point(187, 650);
             this.lblGnd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGnd.Name = "lblGnd";
-            this.lblGnd.Size = new System.Drawing.Size(185, 25);
+            this.lblGnd.Size = new System.Drawing.Size(114, 50);
             this.lblGnd.TabIndex = 70;
-            this.lblGnd.Text = "Gönderme Zamanı :";
+            this.lblGnd.Text = "Send Time:\r\n\r\n";
             // 
             // txtPkt
             // 
             this.txtPkt.BackColor = System.Drawing.Color.LemonChiffon;
             this.txtPkt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtPkt.Location = new System.Drawing.Point(320, 577);
+            this.txtPkt.Location = new System.Drawing.Point(332, 577);
             this.txtPkt.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtPkt.Name = "txtPkt";
             this.txtPkt.Size = new System.Drawing.Size(192, 30);
@@ -507,12 +507,12 @@
             this.lblPkt.BackColor = System.Drawing.Color.Transparent;
             this.lblPkt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblPkt.ForeColor = System.Drawing.Color.Gold;
-            this.lblPkt.Location = new System.Drawing.Point(177, 581);
+            this.lblPkt.Location = new System.Drawing.Point(171, 581);
             this.lblPkt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPkt.Name = "lblPkt";
-            this.lblPkt.Size = new System.Drawing.Size(103, 25);
+            this.lblPkt.Size = new System.Drawing.Size(130, 25);
             this.lblPkt.TabIndex = 68;
-            this.lblPkt.Text = "Paket No :";
+            this.lblPkt.Text = "Package No :";
             // 
             // Overview
             // 
