@@ -139,6 +139,12 @@
     <Compile Include="Telemetries.Designer.cs">
       <DependentUpon>Telemetries.cs</DependentUpon>
     </Compile>
+    <Compile Include="cam.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cam.Designer.cs">
+      <DependentUpon>cam.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -170,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Telemetries.resx">
       <DependentUpon>Telemetries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cam.resx">
+      <DependentUpon>cam.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
