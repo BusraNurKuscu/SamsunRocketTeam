@@ -31,12 +31,13 @@ namespace SamsunRocketTeam2
         {
             this.SuspendLayout();
             // 
-            // UserControl1
+            // cam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "UserControl1";
+            this.Name = "cam";
             this.Size = new System.Drawing.Size(456, 331);
+            this.Load += new System.EventHandler(this.cam_Load);
             this.ResumeLayout(false);
 
         }

@@ -16,5 +16,10 @@ namespace SamsunRocketTeam2
         {
             InitializeComponent();
         }
+
+        private void cam_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
